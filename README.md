@@ -3,10 +3,22 @@
 ## Requirements  
 - Python 3.8+  
 - pip  
-- [ngrok](https://ngrok.com/download)  
+- ngrok (Install ngrok by following the instructions on https://ngrok.com/download)
   
 ---  
-  
+
+## Create an ngrok Account and Get Your Authtoken
+
+Sign up for a free ngrok account on ngrok's website, go to your ngrok dashboard.
+
+Copy your authtoken from the dashboard.
+
+Run the following command to authenticate your ngrok client (before running ngrok):
+
+ngrok authtoken <your_authtoken>
+
+---
+
 ## Windows Setup  
 1. Open PowerShell  
 2. Run: `pip install -r requirements.txt`  
@@ -37,4 +49,4 @@ target_url = "https://<random_subdomain>.ngrok-free.app/run"
 
 Replace <random_subdomain> with your actual ngrok URL.
 
-Give the ngrok URL generated in the target_url to the GPT, in your chat.
+Share this ngrok URL with GPT, in your chat.
