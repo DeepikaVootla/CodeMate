@@ -13,9 +13,7 @@ Sign up for a free ngrok account on ngrok's website, go to your ngrok dashboard.
 
 Copy your authtoken from the dashboard.
 
-Run the following command to authenticate your ngrok client (before running ngrok):
-
-ngrok authtoken <your_authtoken>
+Run the following command to authenticate your ngrok client (before running ngrok): `ngrok authtoken <your_authtoken>` 
 
 ---
 
