@@ -27,7 +27,7 @@ Run the following command to authenticate your ngrok client (before running ngro
   
 ## macOS/Linux Setup  
 1. Open Terminal  
-2. Run: `pip install -r bridge/requirements.txt`  
+2. Run: `pip install -r requirements.txt`  
 3. Make the script executable: `chmod +x scripts/start_unix.sh`  
 4. Start the server: `./scripts/start_unix.sh`  
 5. In another terminal: `ngrok http 3333`  
