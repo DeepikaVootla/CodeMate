@@ -21,7 +21,8 @@ Run the following command to authenticate your ngrok client (before running ngro
 1. Open PowerShell  
 2. Run: `pip install -r requirements.txt`  
 3. Run: `scripts\start_windows.bat`  
-4. In another terminal: `ngrok http 3333`  
+4. Run: `uvicorn command_exec_bridge:app --port 3333 --reload`
+5. In another terminal: `ngrok http 3333`  
   
 ---  
   
@@ -30,7 +31,8 @@ Run the following command to authenticate your ngrok client (before running ngro
 2. Run: `pip install -r requirements.txt`  
 3. Make the script executable: `chmod +x scripts/start_unix.sh`  
 4. Start the server: `./scripts/start_unix.sh`  
-5. In another terminal: `ngrok http 3333`  
+5. Run: `uvicorn command_exec_bridge:app --port 3333 --reload`
+6. In another terminal: `ngrok http 3333`  
 
 ---
 
